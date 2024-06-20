@@ -1,0 +1,15 @@
+.MAin{
+    display:flex;
+    flex-direction: row;
+    background-color:hsl(237, 23%, 32%) ;
+    justify-content: space-between;
+    height:50%;
+}
+@media (max-width: 768px){
+.MAin{display:flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+        height: 50%;
+    }
+}}

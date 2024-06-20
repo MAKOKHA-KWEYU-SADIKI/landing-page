@@ -1,0 +1,20 @@
+.mainBody3{
+display:flex;
+flex-direction: row;
+//border-radius: 0px 50px 0px 50px;
+
+.main3{
+display:flex;
+flex-direction: column;
+}
+}
+@media (max-width: 768px){
+
+.mainBody3{
+display: flex;
+flex-direction: column;
+}
+}
+img{
+    width: 50%;
+    }
